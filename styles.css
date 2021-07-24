@@ -1,0 +1,30 @@
+body{
+    background-color: #379683 !important;
+    color: #05386b;
+}
+
+.title{
+    color: #EDF5E1 !important;
+}
+
+
+input{
+    background-color: #EDF5E1 !important;
+    color: #05386b !important;
+}
+
+textarea{
+    background-color: #EDF5E1 !important;
+    color: #05386b !important;
+    border-radius: 5px;
+}
+
+i{
+    cursor: pointer;
+}
+@media only screen and (max-width: 650px){
+	.container-search{
+        width: 100% !important; 
+    }
+}
+

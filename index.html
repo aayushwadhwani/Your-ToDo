@@ -4,9 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Your-toDo</title>
 </head>
 <body>
-    
+    <header class="text-center my-5">
+        <h3 class="title display-2">
+            Your To-Do
+        </h3>
+    </header>
+
+    <div class="container w-50 container-search m-auto py-3">
+        <form action="" class="search ">
+            <div class="form-group row">
+                <div class="col-md-2 col-sm-12 ">
+                    <h5><label for="search" class="col-form-label search-label">Search</label></h5>
+                </div>
+                <div class="col-sm-12 col-md-10">
+                    <input type="text" class="form-control" id="search" name="search" placeholder="Aayush">
+                  </div>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="row p-5 w-75 m-auto container-search ">
+        <div class="col-sm-12 col-lg-6 my-3">
+            <div class="card" style="background-color: #EDF5E1;">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Hello there</h5>
+                    <p class="card-text lead">Hyyy</p>
+                    <i class="far fa-trash-alt float-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 my-3">
+            <div class="card" style="background-color: #EDF5E1;">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Hello there</h5>
+                    <p class="card-text lead">Hyyy</p>
+                    <i class="far fa-trash-alt float-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 my-3">
+            <div class="card" style="background-color: #EDF5E1;">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Hello there</h5>
+                    <p class="card-text lead">Hyyy</p>
+                    <i class="far fa-trash-alt float-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 my-3">
+            <div class="card" style="background-color: #EDF5E1;">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Hello there</h5>
+                    <p class="card-text lead">Hyyy</p>
+                    <i class="far fa-trash-alt float-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container w-50 mt-3 container-search">
+        <h4 class="text-center title m-3">
+            Add A New To-Do
+        </h4>
+        <form action=""class="add">
+            <div class="form-group row">
+                <div class="col-md-2 col-sm-12">
+                    <h5> <label for="Title">Title</label> </h5>
+                </div>
+                <div class="col-sm-12 col-md-10">
+                    <input type="text" name="title" id="Title" placeholder="Title" class="form-control">
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <h5> <label for="content">Content</label> </h5>
+                </div>
+                <div class="col-sm-12 col-md-10">
+                    <textarea name="content" id="content" class="form-control"></textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/56bbfc97eb.js" crossorigin="anonymous"></script>
 </body>
 </html>
