@@ -22,6 +22,11 @@ textarea{
 i{
     cursor: pointer;
 }
+
+.remove{
+    display: none;
+}
+
 @media only screen and (max-width: 650px){
 	.container-search{
         width: 100% !important; 
