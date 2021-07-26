@@ -18,8 +18,9 @@ const add = (title,content) =>{
 };  
 
 addToDo.addEventListener('submit', e=>{
-    e.preventDefault();
     let elements = addToDo.elements;
+    console.log(elements);
+    e.preventDefault();
     let canAdd = true;
     for(let i=0; i<elements.length ; i++){
         if(!elements[i].value.trim()){
@@ -27,7 +28,6 @@ addToDo.addEventListener('submit', e=>{
             break;
         }
     }
-    console.log(canAdd);
 
     if(canAdd){
         add(elements[0].value,elements[1].value);
